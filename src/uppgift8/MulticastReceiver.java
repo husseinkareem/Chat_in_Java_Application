@@ -45,5 +45,4 @@ public class MulticastReceiver extends Thread{
             throw new RuntimeException(ex);
         }
     }
-
 }
