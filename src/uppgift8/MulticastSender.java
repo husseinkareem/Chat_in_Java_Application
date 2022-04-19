@@ -31,4 +31,7 @@ public class MulticastSender {
             packet = new DatagramPacket(data, data.length, iadr, port);
             socket.send(packet);
         }
-    }
+        public void close(){
+        socket.close();
+        }
+}
